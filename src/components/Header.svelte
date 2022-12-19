@@ -1,3 +1,4 @@
+import welcome from '$lib/images/svelte-welcome.webp';
 <header class="sticky top-0 left-0 z-50 overflow-hidden">
 <nav class="w-full h-[130px] grid grid-cols-nav1 bg-white">
     <div
