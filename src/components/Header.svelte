@@ -1,4 +1,4 @@
-import welcome from '$lib/images/svelte-welcome.webp';
+import welcome from '$src/images/logo.webp';
 <header class="sticky top-0 left-0 z-50 overflow-hidden">
 <nav class="w-full h-[130px] grid grid-cols-nav1 bg-white">
     <div
@@ -42,7 +42,7 @@ import welcome from '$lib/images/svelte-welcome.webp';
     <div class="flex w-full justify-start items-center ml-[3.5vw] mt-[2vw]">
       <img
         class="w-[19vw] sm:w-[13vw] md:w-[9vw] lg:w-[6vw]"
-        src="static/logo.webp"
+        src="{welcome}"
         alt="fashion website logo"
       />
       <h1
