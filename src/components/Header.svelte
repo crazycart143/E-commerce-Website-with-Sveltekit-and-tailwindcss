@@ -41,7 +41,7 @@
     <div class="flex w-full justify-start items-center ml-[3.5vw] mt-[2vw]">
       <img
         class="w-[19vw] sm:w-[13vw] md:w-[9vw] lg:w-[6vw]"
-        src="E-commerce-Website-with-Sveltekit-and-tailwindcss/src/images/logo.webp"
+        src="./src/images/logo.webp"
         alt="fashion website logo"
       />
       <h1
