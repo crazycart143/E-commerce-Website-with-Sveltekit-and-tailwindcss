@@ -1,0 +1,47 @@
+<svelte:head>
+    <title>Login</title>
+</svelte:head>
+
+<section class="lg:grid grid-cols-login1 w-full h-full text-center py-32 lg:py-0 lg:h-[85vh]">
+    <div class="h-full w-full flex flex-col justify-center lg:justify-start lg:pt-40  ">
+        <h1 class="text-3xl md:text-[40px] lg:text-[45px] font-semibold">Login to Your Account</h1>
+        <h2 class="text-gray-500 md:text-[18px] lg:text-[19px] my-2 lg:my-4">Login using social networks</h2>
+        <div class="flex justify-center items-center">
+            <img
+            class="w-10 mx-2 cursor-pointer"
+            src="../src/images/fb.png"
+            alt="facebook icon"
+          />
+          <img
+          class="w-9 mx-2 cursor-pointer"
+          src="../src/images/google.png"
+          alt="facebook icon"
+        />
+        <img
+        class="w-10 mx-2 cursor-pointer"
+        src="../src/images/linked-in.png"
+        alt="facebook icon"
+      />
+        </div>
+        <div class="w-full text-center my-4">
+            <p class="md:hidden text-xs text-gray-400">━━━━━━━━━━━━━━━━━━━━━━━━━━ OR ━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+            <p class="hidden md:block text-xs text-gray-400">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ OR ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+        </div>
+        <div class="flex flex-col justify-center mx-[12%]  md:mx-[20%]  mb-[20px]">
+        <input class="mb-[20px] bg-[#EDF5F3] rounded-xl px-3 py-2" type="text" placeholder="Email">
+        <input class="mb-[20px] bg-[#EDF5F3] rounded-xl px-3 py-2" type="text" placeholder="Password">
+        </div>
+        <button class="btn hover:bg-black w-[50%] lg:max-w-[3   50px] bg-black rounded-full mx-auto">Sign in</button>
+        <a class="mt-8 lg:hidden" href="#">Don't have an account? <span class="text-blue-700">Sign up here</span> </a>
+    </div>
+    
+    <div class="hidden lg:flex h-[100vh] relative">
+        <div class="absolute h-full  mx-16 flex flex-col justify-start items-center text-white font-bold pt-52">
+            <h1 class="text-[3vw]">New Here?</h1>
+            <h2 class="font-light my-8 text-xl">Sign up and discover a great amount of aesthetic clothes made just for you!</h2>
+            <button class="btn hover:bg-black hover:text-white text-black w-[50%] lg:max-w-[200px] border-none bg-white rounded-full mx-auto">Sign in</button>
+        </div>
+        <img class="h-[85vh] w-full" src="../src/images/login-bg.webp" alt="">
+
+    </div>
+</section>
