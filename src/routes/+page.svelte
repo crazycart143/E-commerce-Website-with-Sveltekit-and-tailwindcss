@@ -1,6 +1,6 @@
 <script>
-  import image from '../lib/assets/images/hero-vector.webp'
-  import image1 from '../lib/assets/images/hero-image.webp'
+  import image from '$lib/assets/images/hero-vector.webp'
+  import image1 from '$lib/assets/images/hero-image.webp'
   import brand1 from '$lib/assets/images/hero-brand1.webp'
   import brand2 from '$lib/assets/images/hero-brand2.webp'
   import brand3 from '$lib/assets/images/hero-brand3.webp'
