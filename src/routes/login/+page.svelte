@@ -1,5 +1,5 @@
 <script>
-    import image from '../lib/assets/images/fb.png'
+    import image from '$lib/assets/images/fb.png'
     import image1 from '$lib/assets/images/google.png'
     import image2 from '$lib/assets/images/linked-in.png'
     import image3 from '$lib/assets/images/login-bg.webp'
