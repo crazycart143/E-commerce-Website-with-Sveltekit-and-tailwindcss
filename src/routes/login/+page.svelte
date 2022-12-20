@@ -9,7 +9,7 @@
     <title>Login</title>
 </svelte:head>
 
-<section class="lg:grid grid-cols-login1 w-full h-full text-center pb-10 sm:py-28 lg:h-[85vh] lg:py-0 lg:pb-0">
+<section class="lg:grid grid-cols-login1 w-full h-full text-center pb-10 sm:py-14 lg:h-[85vh] lg:py-0 lg:pb-0">
     <div class="h-full w-full flex flex-col justify-center lg:justify-start lg:pt-32  ">
         <h1 class="text-2xl md:text-[40px] lg:text-[45px] font-semibold">Login to Your Account</h1>
         <h2 class="text-gray-500 md:text-[18px] lg:text-[19px] my-2 lg:my-4">Login using social networks</h2>
