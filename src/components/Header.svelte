@@ -1,5 +1,5 @@
 <script>
-  import image from '$lib/assets/images/logo.webp'
+  import image from '../lib/assets/images/logo.webp'
 </script>
 
 <header class="sticky top-0 left-0 z-50 overflow-hidden">
