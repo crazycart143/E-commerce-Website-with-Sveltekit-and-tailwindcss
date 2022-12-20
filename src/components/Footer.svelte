@@ -1,3 +1,10 @@
+<script>
+  import image from '$lib/assets/images/fb-icon.png'
+  import image1 from '$lib/assets/images/instagram-icon.png'
+  import image2 from '$lib/assets/images/twitter-icon.png'
+  import image3 from '$lib/assets/images/linked-in.png'
+</script>
+
 <footer class="w-full h-full grid-cols-2 bg-black lg:grid lg:py-10">
     <div
         class="hidden lg:flex flex-col py-10 px-[15%] justify-start items-start w-full"
@@ -12,29 +19,29 @@
           <div class="flex">
             <img
               class="w-[70%] cursor-pointer"
-              src="../src/images/fb-icon.png"
+              src="{image}"
               alt="facebook icon"
             />
           </div>
           <div class="flex">
             <img
               class="w-[70%] cursor-pointer"
-              src="../src/images/instagram-icon.png"
-              alt="facebook icon"
+              src="{image1}"
+              alt="instagram icon"
             />
           </div>
           <div class="flex">
             <img
               class="w-[70%] cursor-pointer"
-              src="../src/images/twitter-icon.png"
-              alt="facebook icon"
+              src="{image2}"
+              alt="twitter icon"
             />
           </div>
           <div class="flex">
             <img
               class="w-[70%] cursor-pointer"
-              src="../src/images/linkedin-icon.png"
-              alt="facebook icon"
+              src="{image3}"
+              alt="linked-in icon"
             />
           </div>
         </div>
@@ -109,29 +116,29 @@
         <div class="flex">
           <img
             class="w-[70%] cursor-pointer"
-            src="../src/images/fb-icon.png"
+            src="{image}"
             alt="facebook icon"
           />
         </div>
         <div class="flex">
           <img
             class="w-[70%] cursor-pointer"
-            src="../src/images/instagram-icon.png"
-            alt="facebook icon"
+            src="{image1}"
+            alt="instagram icon"
           />
         </div>
         <div class="flex">
           <img
             class="w-[70%] cursor-pointer"
-            src="../src/images/twitter-icon.png"
-            alt="facebook icon"
+            src="{image2}"
+            alt="twitter icon"
           />
         </div>
         <div class="flex">
           <img
             class="w-[70%] cursor-pointer"
-            src="../src/images/linkedin-icon.png"
-            alt="facebook icon"
+            src="{image3}"
+            alt="linked-in icon"
           />
         </div>
       </div>
