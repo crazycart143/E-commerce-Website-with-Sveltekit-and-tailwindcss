@@ -1,5 +1,13 @@
 <script>
-    
+  import image from '$lib/assets/images/hero-vector.webp'
+  import image1 from '$lib/assets/images/hero-image.webp'
+  import brand1 from '$lib/assets/images/hero-brand1.webp'
+  import brand2 from '$lib/assets/images/hero-brand2.webp'
+  import brand3 from '$lib/assets/images/hero-brand3.webp'
+  import brand4 from '$lib/assets/images/hero-brand4.webp'
+  import brand5 from '$lib/assets/images/hero-brand5.webp'
+  import brand6 from '$lib/assets/images/hero-brand6.webp'
+  import image3 from '$lib/assets/images/linkin-icon.png'
 </script>
 
 <svelte:head>
@@ -37,7 +45,7 @@
           >
             <img
               class="hidden md:flex w-[15vw] h-5 mr-[3vw]"
-              src="../src/images/hero-vector.webp"
+              src="{image}"
               alt="star vector"
             />
             <button
@@ -54,7 +62,7 @@
         <div>
           <img
             class="w-[100vw] h-full object-cover md:max-w-[80%] md:ml-auto"
-            src="../src/images/hero-image.webp"
+            src="{image1}"
             alt="model girl with black outfit"
           />
         </div>
@@ -65,42 +73,42 @@
         <div class="flex ml-[6vw] sm:ml-0">
           <img
             class="h-[3vh] md:h-[4vh] lg:h-[5vh]"
-            src="../src/images/hero-brand1.webp"
+            src="{brand1}"
             alt="H&M BRAND"
           />
         </div>
         <div class="flex">
           <img
             class="h-[2.5vh] md:h-[4vh] lg:h-[4.5vh]"
-            src="../src/images/hero-brand2.webp"
+            src="{brand2}"
             alt="OBEY BRAND"
           />
         </div>
         <div class="flex">
           <img
             class="h-[3vh] md:h-[4vh] lg:h-[5vh]"
-            src="../src/images/hero-brand3.webp"
+            src="{brand3}"
             alt="SHOPIFY BRAND"
           />
         </div>
         <div class="flex">
           <img
             class="h-[3vh] md:h-[4vh] mb-[1vw] lg:h-[5vh]"
-            src="../src/images/hero-brand4.webp"
+            src="{brand4}"
             alt="LACOSTE BRAND"
           />
         </div>
         <div class="flex mt-[1vw]">
           <img
             class="h-[3vh] md:h-[4vh] mb-[1vw] mx-[10px] lg:h-[5vh]"
-            src="../src/images/hero-brand5.webp"
+            src="{brand5}"
             alt="LEVI'S BRAND"
           />
         </div>
         <div class="flex mr-[5vw] sm:mr-0 mt-[2vw]">
           <img
             class="h-[3vh] md:h-[4vh] mb-[1vw] lg:h-[5vh]"
-            src="../src/images/hero-brand6.webp"
+            src="{brand6}"
             alt="AMAZON BRAND"
           />
         </div>
