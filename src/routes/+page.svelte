@@ -5,6 +5,12 @@
   import image3 from '$lib/assets/images/arrivals-image2.webp'
   import image4 from '$lib/assets/images/arrivals-image3.webp'
   import image5 from '$lib/assets/images/jpgtopngconverter-com.webp'
+  import image6 from '$lib/assets/images/vector_star.webp'
+  import image7 from '$lib/assets/images/youngs-image1.webp'
+  import image8 from '$lib/assets/images/youngs-image2.webp'
+  import btn1 from '$lib/assets/images/apple-btn.webp'
+  import btn2 from '$lib/assets/images/googleplay-btn.webp'
+  import Mobileimage1 from '$lib/assets/images/apps-btn.webp'
   import arrow from '$lib/assets/images/arrow-icon.webp'
   import brand1 from '$lib/assets/images/hero-brand1.webp'
   import brand2 from '$lib/assets/images/hero-brand2.webp'
@@ -252,22 +258,22 @@
         </div>
         <img
           class="absolute top-[10%] left-[5%]"
-          src="../src/images/vector_star.webp"
+          src="{image6}"
           alt="vector star design 1"
         />
         <img
           class="absolute w-[30px] top-[10%] right-[10%]"
-          src="../src/images/vector_star.webp"
+          src="{image6}"
           alt="vector star design 2"
         />
         <img
           class="absolute w-[50px] bottom-[10%] right-[10%]"
-          src="../src/images/vector_star.webp"
+          src="{image6}"
           alt="vector star design 3"
         />
         <img
           class="absolute w-[30px] bottom-[20%] left-[10%]"
-          src="../src/images/vector_star.webp"
+          src="{image6}"
           alt="vector star design 4"
         />
       </div>
@@ -284,7 +290,7 @@
         <div>
           <img
             class="lg:w-[40vw] w-[70vw]"
-            src="../src/images/youngs-image1.webp"
+            src="{image7}"
             alt="two young girls looking happy wearing glasses"
           />
           <div class="mt-[5%] relative">
@@ -298,7 +304,7 @@
             </p>
             <img
               class="w-[5vw] absolute bottom-[5vw] right-[1vw] cursor-pointer sm:bottom-[3vw] lg:w-[2vw] lg:right-0"
-              src="../src/images/arrow-icon.webp"
+              src="{arrow}"
               alt="arrow icon"
             />
           </div>
@@ -307,7 +313,7 @@
         <div class="mt-[5vw] lg:mt-0">
           <img
             class="w-[70vw] lg:w-[40vw]"
-            src="../src/images/youngs-image2.webp"
+            src="{image8}"
             alt="young happy girl wearing glasses "
           />
           <div class="mt-[5%] relative">
@@ -321,7 +327,7 @@
             </p>
             <img
               class="w-[5vw] absolute bottom-[5vw] right-[1vw] cursor-pointer sm:bottom-[3vw] lg:w-[2vw] lg:right-0"
-              src="../src/images/arrow-icon.webp"
+              src="{arrow}"
               alt="arrow icon"
             />
           </div>
@@ -352,12 +358,12 @@
         >
           <img
             class="w-[35%] sm:w-[25%] md:w-[20%] lg:w-[15%] mr-[5%] lg:mr-[2%] cursor-pointer"
-            src="../src/images/apple-btn.webp"
+            src="{btn1}"
             alt="download on apple button"
           />
           <img
             class="w-[35%] sm:w-[25%] md:w-[20%] lg:w-[15%] cursor-pointer"
-            src="../src/images/googleplay-btn.webp"
+            src="{btn2}"
             alt="download on google play button"
           />
         </div>
@@ -390,7 +396,7 @@
             class="hidden md:grid grid-cols-2 absolute top-0 left-0 bottom-0 -right-[17px] overflow-y-scroll"
           >
             <div class="flex justify-start items-center mt-[25%] ml-[20%]">
-              <img src="../src/images/apps-btn.webp" alt="apps menu button" />
+              <img src="{Mobileimage1}" alt="apps menu button" />
             </div>
             <div class="flex justify-end items-center mr-[25%] mt-[25%]">
               <img src="../src/images/profile-btn.webp" alt="profile button" />
