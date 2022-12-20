@@ -2,7 +2,7 @@
   import image from '$lib/assets/images/fb-icon.png'
   import image1 from '$lib/assets/images/instagram-icon.png'
   import image2 from '$lib/assets/images/twitter-icon.png'
-  import image3 from '$lib/assets/images/linkedin-icon.png'
+  import image3 from '$lib/assets/images/linkin-icon.png'
 </script>
 
 <footer class="w-full h-full grid-cols-2 bg-black lg:grid lg:py-10">
