@@ -1,13 +1,18 @@
 <script>
-  import image from '$lib/assets/images/hero-vector.webp'
+  import image from '../lib/assets/images/hero-vector.webp'
   import image1 from '$lib/assets/images/hero-image.webp'
+  import image2 from '$lib/assets/images/arrivals-image1.webp'
+  import image3 from '$lib/assets/images/arrivals-image2.webp'
+  import image4 from '$lib/assets/images/arrivals-image3.webp'
+  import image5 from '$lib/assets/images/jpgtopngconverter-com.webp'
+  import arrow from '$lib/assets/images/arrow-icon.webp'
   import brand1 from '$lib/assets/images/hero-brand1.webp'
   import brand2 from '$lib/assets/images/hero-brand2.webp'
   import brand3 from '$lib/assets/images/hero-brand3.webp'
   import brand4 from '$lib/assets/images/hero-brand4.webp'
   import brand5 from '$lib/assets/images/hero-brand5.webp'
   import brand6 from '$lib/assets/images/hero-brand6.webp'
-  import image3 from '$lib/assets/images/linkin-icon.png'
+  
 </script>
 
 <svelte:head>
@@ -132,7 +137,7 @@
             <div>
               <img
                 class="w-[70vw] sm:w-[65vw] md:w-[55vw] lg:w-[25vw]"
-                src="../src/images/arrivals-image1.webp"
+                src="{image2}"
                 alt="girl wearing orange hoodie"
               />
               <div class="mt-[5%] relative">
@@ -148,7 +153,7 @@
                 </p>
                 <img
                   class="w-[5vw] lg:w-[2vw] absolute bottom-[5vw] sm:bottom-[3vw] right-[1vw] lg:right-0 lg:bottom-[2.5vw] cursor-pointer"
-                  src="../src/images/arrow-icon.webp"
+                  src="{arrow}"
                   alt="arrow icon"
                 />
               </div>
@@ -157,7 +162,7 @@
             <div class="mt-[5vw] lg:mt-0">
               <img
                 class="w-[70vw] sm:w-[65vw] md:w-[55vw] lg:w-[25vw]"
-                src="../src/images/arrivals-image2.webp"
+                src="{image3}"
                 alt="girl wearing blue coat"
               />
               <div class="mt-[5%] relative">
@@ -173,7 +178,7 @@
                 </p>
                 <img
                   class="w-[5vw] lg:w-[2vw] absolute bottom-[5vw] lg:right-0 sm:bottom-[3vw] lg:bottom-[2.5vw] right-[1vw] cursor-pointer"
-                  src="../src/images/arrow-icon.webp"
+                  src="{arrow}"
                   alt="arrow icon"
                 />
               </div>
@@ -182,7 +187,7 @@
             <div class="mt-[5vw] lg:mt-0">
               <img
                 class="w-[70vw] sm:w-[65vw] md:w-[55vw] lg:w-[25vw]"
-                src="../src/images/arrivals-image3.webp"
+                src="{image4}"
                 alt="girl wearing white t-shirt"
               />
               <div class="mt-[5%] relative">
@@ -198,7 +203,7 @@
                 </p>
                 <img
                   class="w-[5vw] lg:w-[2vw] absolute bottom-[5vw] lg:right-0 sm:bottom-[3vw] lg:bottom-[2vw] right-[1vw] cursor-pointer"
-                  src="../src/images/arrow-icon.webp"
+                  src="{arrow}"
                   alt="arrow icon"
                 />
               </div>
@@ -212,7 +217,7 @@
         <div>
           <img
             class="hidden lg:flex absolute left-[3%] bottom-0 h-[90%] text-center"
-            src="../src/images/jpgtopngconverter-com.webp"
+            src="{image5}"
             alt="shopping girl"
           />
         </div>
