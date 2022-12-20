@@ -9,7 +9,7 @@
     <title>Login</title>
 </svelte:head>
 
-<section class="lg:grid grid-cols-login1 w-full h-full text-center py-32 lg:py-0 lg:h-[85vh]">
+<section class="lg:grid grid-cols-login1 w-full h-full text-center py-10 lg:h-[85vh]">
     <div class="h-full w-full flex flex-col justify-center lg:justify-start lg:pt-40  ">
         <h1 class="text-3xl md:text-[40px] lg:text-[45px] font-semibold">Login to Your Account</h1>
         <h2 class="text-gray-500 md:text-[18px] lg:text-[19px] my-2 lg:my-4">Login using social networks</h2>
@@ -30,8 +30,8 @@
         alt="linked-in icon"
       />
         </div>
-        <div class="w-full text-center my-4">
-            <p class="md:hidden text-xs text-gray-400">━━━━━━━━━━━━━━━━━━━━━━━━━━ OR ━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+        <div class="w-full text-center my-4 mx-1">
+            <p class="md:hidden text-xs text-gray-400">━━━━━━━━━━━━━━━━━━━━━━ OR ━━━━━━━━━━━━━━━━━━━━━━━━</p>
             <p class="hidden md:block text-xs text-gray-400">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ OR ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
         </div>
         <div class="flex flex-col justify-center mx-[12%]  md:mx-[20%]  mb-[20px]">
