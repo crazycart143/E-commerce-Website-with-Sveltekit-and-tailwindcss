@@ -1,3 +1,10 @@
+<script>
+    import image from '$lib/assets/images/fb.png'
+    import image1 from '$lib/assets/images/google.png'
+    import image2 from '$lib/assets/images/linked-in.png'
+    import image3 from '$lib/assets/images/login-bg.webp'
+</script>
+
 <svelte:head>
     <title>Login</title>
 </svelte:head>
@@ -9,18 +16,18 @@
         <div class="flex justify-center items-center">
             <img
             class="w-10 mx-2 cursor-pointer"
-            src="../src/images/fb.png"
+            src="{image}"
             alt="facebook icon"
           />
           <img
           class="w-9 mx-2 cursor-pointer"
-          src="../src/images/google.png"
-          alt="facebook icon"
+          src="{image1}"
+          alt="google icon"
         />
         <img
         class="w-10 mx-2 cursor-pointer"
-        src="../src/images/linked-in.png"
-        alt="facebook icon"
+        src="{image2}"
+        alt="linked-in icon"
       />
         </div>
         <div class="w-full text-center my-4">
@@ -41,7 +48,7 @@
             <h2 class="font-light my-8 text-xl">Sign up and discover a great amount of aesthetic clothes made just for you!</h2>
             <button class="btn hover:bg-black hover:text-white text-black w-[50%] lg:max-w-[200px] border-none bg-white rounded-full mx-auto">Sign in</button>
         </div>
-        <img class="h-[85vh] w-full" src="../src/images/login-bg.webp" alt="">
+        <img class="h-[85vh] w-full" src="{image3}" alt="">
 
     </div>
 </section>
