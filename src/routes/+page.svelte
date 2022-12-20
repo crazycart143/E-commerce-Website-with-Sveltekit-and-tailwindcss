@@ -10,7 +10,13 @@
   import image8 from '$lib/assets/images/youngs-image2.webp'
   import btn1 from '$lib/assets/images/apple-btn.webp'
   import btn2 from '$lib/assets/images/googleplay-btn.webp'
-  import Mobileimage1 from '$lib/assets/images/apps-btn.webp'
+  import mobileImage1 from '$lib/assets/images/apps-btn.webp'
+  import mobileImage2 from '$lib/assets/images/profile-btn.webp'
+  import mobileImage3 from '$lib/assets/images/mobile-image1.webp'
+  import mobileImage4 from '$lib/assets/images/mobile-image2.webp'
+  import mobileImage5 from '$lib/assets/images/mobile-image3.webp'
+  import mobileImage6 from '$lib/assets/images/mobile-image4.webp'
+  import mobileSearchImage from '$lib/assets/images/Search-btn.webp'
   import arrow from '$lib/assets/images/arrow-icon.webp'
   import brand1 from '$lib/assets/images/hero-brand1.webp'
   import brand2 from '$lib/assets/images/hero-brand2.webp'
@@ -396,10 +402,10 @@
             class="hidden md:grid grid-cols-2 absolute top-0 left-0 bottom-0 -right-[17px] overflow-y-scroll"
           >
             <div class="flex justify-start items-center mt-[25%] ml-[20%]">
-              <img src="{Mobileimage1}" alt="apps menu button" />
+              <img src="{mobileImage1}" alt="apps menu button" />
             </div>
             <div class="flex justify-end items-center mr-[25%] mt-[25%]">
-              <img src="../src/images/profile-btn.webp" alt="profile button" />
+              <img src="{mobileImage2}" alt="profile button" />
             </div>
             <div
               class="mx-[15%] mt-[10%] w-[29vw] font-bold text-xl lg:text-base flex flex-col text-[2vw]"
@@ -409,7 +415,7 @@
               <form class="relative flex overflow-hidden">
                 <img
                   class="absolute top-[30%] left-[3%] cursor-pointer"
-                  src="../src/images/Search-btn.webp"
+                  src="{mobileSearchImage}"
                   alt="search button"
                 />
                 <input
@@ -443,7 +449,7 @@
                 <div>
                   <img
                     class="w-full"
-                    src="../src/images/mobile-image1.webp"
+                    src="{mobileImage3}"
                     alt="arrival item 1 girl wearing orange hoodie"
                   />
 
@@ -461,7 +467,7 @@
                 <div class="flex flex-col">
                   <img
                     class="w-[100%]"
-                    src="../src/images/mobile-image2.webp"
+                    src="{mobileImage4}"
                     alt="arrival item 1 girl wearing orange hoodie"
                   />
 
@@ -475,7 +481,7 @@
                 <div class="flex flex-col">
                   <img
                     class="w-[100%]"
-                    src="../src/images/mobile-image3.webp"
+                    src="{mobileImage5}"
                     alt="arrival item 1 girl wearing orange hoodie"
                   />
 
@@ -487,7 +493,7 @@
                 <div class="flex flex-col">
                   <img
                     class="w-[100%]"
-                    src="../src/images/mobile-image4.webp"
+                    src="{mobileImage6}"
                     alt="arrival item 1 girl wearing orange hoodie"
                   />
 
@@ -499,7 +505,7 @@
                 <div class="flex flex-col">
                   <img
                     class="w-[100%]"
-                    src="../src/images/mobile-image4.webp"
+                    src="{mobileImage6}"
                     alt="arrival item 1 girl wearing orange hoodie"
                   />
 
@@ -511,7 +517,7 @@
                 <div class="flex flex-col">
                   <img
                     class="w-[100%]"
-                    src="../src/images/mobile-image4.webp"
+                    src="{mobileImage6}"
                     alt="arrival item 1 girl wearing orange hoodie"
                   />
 
