@@ -11,7 +11,7 @@
     <title>Login</title>
 </svelte:head>
 
-<section class="lg:grid grid-cols-login1 w-full h-full text-center pb-10 sm:py-28 lg:h-[85vh] lg:py-0 lg:pb-0">
+<section class="lg:grid grid-cols-login1 w-full h-full text-center pb-10 sm:py-14 lg:h-[85vh] lg:py-0 lg:pb-0">
     <div class="h-full w-full flex flex-col justify-center lg:justify-start lg:pt-36  ">
         <h1 class="text-3xl sm:text-[40px] lg:text-[45px] font-semibold mb-10">Create Your Account</h1>
         <div class="flex flex-col justify-center mx-[18%] sm:mx-[25%] mb-[20px]">
