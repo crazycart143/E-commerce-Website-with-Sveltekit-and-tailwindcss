@@ -1,3 +1,7 @@
+<script>
+  import image from '$lib/assets/images/logo.webp'
+</script>
+
 <header class="sticky top-0 left-0 z-50 overflow-hidden">
 <nav class="w-full h-[130px] grid grid-cols-nav1 bg-white">
     <div
@@ -41,7 +45,7 @@
     <div class="flex w-full justify-start items-center ml-[3.5vw] mt-[2vw]">
       <img
         class="w-[19vw] sm:w-[13vw] md:w-[9vw] lg:w-[6vw]"
-        src="../src/images/logo.webp"
+        src="{image}"
         alt="fashion website logo"
       />
       <h1
