@@ -9,9 +9,9 @@
     <title>Login</title>
 </svelte:head>
 
-<section class="lg:grid grid-cols-login1 w-full h-full text-center py-10 lg:h-[85vh]">
+<section class="lg:grid grid-cols-login1 w-full h-full text-center pb-10 lg:h-[85vh]">
     <div class="h-full w-full flex flex-col justify-center lg:justify-start lg:pt-40  ">
-        <h1 class="text-3xl md:text-[40px] lg:text-[45px] font-semibold">Login to Your Account</h1>
+        <h1 class="text-2xl md:text-[40px] lg:text-[45px] font-semibold">Login to Your Account</h1>
         <h2 class="text-gray-500 md:text-[18px] lg:text-[19px] my-2 lg:my-4">Login using social networks</h2>
         <div class="flex justify-center items-center">
             <img
@@ -30,15 +30,14 @@
         alt="linked-in icon"
       />
         </div>
-        <div class="w-full text-center my-4 mx-1">
-            <p class="md:hidden text-xs text-gray-400">━━━━━━━━━━━━━━━━━━━━━━ OR ━━━━━━━━━━━━━━━━━━━━━━━━</p>
-            <p class="hidden md:block text-xs text-gray-400">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ OR ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+        <div class="w-full flex justify-center my-4 ">
+            <p class=" text-xs text-gray-400 divider divider-vertical w-[70%]"> OR  </p>
         </div>
-        <div class="flex flex-col justify-center mx-[12%]  md:mx-[20%]  mb-[20px]">
+        <div class="flex flex-col justify-center mx-[15%]   mb-[20px]">
         <input class="mb-[20px] bg-[#EDF5F3] rounded-xl px-3 py-2" type="text" placeholder="Email">
         <input class="mb-[20px] bg-[#EDF5F3] rounded-xl px-3 py-2" type="text" placeholder="Password">
         </div>
-        <button class="btn hover:bg-black w-[50%] lg:max-w-[3   50px] bg-black rounded-full mx-auto">Sign in</button>
+        <button class="btn hover:bg-black w-[70%]  bg-black rounded-full mx-[15%]">Sign in</button>
         <a class="mt-8 lg:hidden" href="#">Don't have an account? <span class="text-blue-700">Sign up here</span> </a>
     </div>
     
